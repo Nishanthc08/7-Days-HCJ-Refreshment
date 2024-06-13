@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Social Media Dashboard</h1>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div id="user-info">
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Followers:</strong> <span id="follower-count">0</span></p>
+                <button id="follow-btn">Follow</button>
+            </div>
+        </section>
+
+        <section id="posts">
+            <h2>Posts</h2>
+            <div id="post-list">
+
+            </div>
+            <form id="post-form">
+                <textarea id="post-input" placeholder="What's on your mind?" required></textarea>
+                <button type="submit">Post</button>
+            </form>
+            
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
